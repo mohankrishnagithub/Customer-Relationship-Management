@@ -1,0 +1,31 @@
+{% load static %}
+<head>
+
+    <script src="https://unpkg.com/htmx.org@1.9.0"></script>
+    <link rel="stylesheet" href="{% static 'jobToCustomerStyles.css' %}">
+
+</head>
+<body>
+
+<a href="/">
+  <img src="{% static 'images/homeicon.svg' %}" alt="" style="display: inline-block; height: 30px; width: 30px; position:fixed; right:2%; top:2%;">
+</a>
+
+<br>
+
+<h1> {{ user_obj.CustomerName }} </h1>
+<p> cell: {{ user_obj.Phone }}</p>
+
+             <button  type="button"
+                      hx-get="{% url 'ServiceFormHandler' user_obj.CIDN %}"
+                      hx-target="#grand-container"
+                      hx-swap="beforeend"
+                      hx-trigger="click"
+                     >Add-form </button>
+
+<div id="grand-container">
+  <!-- This holds one or multiple forms -->
+</div>
+
+
+</body>

@@ -1,0 +1,75 @@
+    3-10-2023
+# added Model field to Job-Model to Hold device model
+# added Serial Number to Job-Model to Hold device serial number
+# CIDN/SIDN pending for Models CustomerRegistration, Job
+# Filled Model field of JOB-Model with random models from list
+# Now Homepage has Better Info on Services
+# Modified DJ filter to work with New Field in JOB-Model
+
+    8-10-2023
+# Fixed Bug which has improper Strobe Size on record ID
+# Added Vertical and Horizontal navbars
+
+    9-10-2023
+# Icons inserted in vertical navbar
+# created Repository to track updates
+
+    10-10-2023
+# Customized info for Tiles on Console Page
+# refactored console code and shifted to console.html
+# Added more navigation icons and allocated area for content
+# initialized HTMX to activate navigation Buttons
+
+    11-10-2023
+# Made changes to DB table CustomerRegistration by adding Coloumn EngagementTier (Elite, Regular, Basic, Caution)
+# Created dedicated APP for console
+# Completed visualization of Customers DB on Console Page
+# Completed View Customer for CUStomerDB page
+
+    12-10-2023
+# Scheduled Log Model for DataBase
+# Scheduled last-Order field for CustomerRegistration model
+
+    13-10-2023
+# Refactored Dashboard layout on Main Page (looking good)
+# Scheduled to add Functionality for New Dashboard
+# Dashboard 90%-milestone Reached
+# Basic Functionality of Dashboard Restored!
+
+    14-10-2023
+# Dashboard Customized Delivered Interface!
+
+    15-10-2023
+# Dasboard Notch Blinking and colors Updated!
+
+    17-10-2023
+# CustomerDB info Div styles updated
+# widget table data return styling Fixed!
+# Refactored Target-div for TableRecords
+# popup mini dashboard created for More Actions
+# HomeIcon in Console-Page
+
+
+    19-10-2023
+# Dumped Database Data for Refactoring database structure
+
+    20-10-2023
+# Test Done for  Loading Manual Data into DB 
+
+    22-10-2023
+# Dumping and testing Models data with New Fields Testing Succesfull!
+# Loading Data with New Fields Succesfull!
+
+    23-10-2023
+# Zoom meeting Completed and evaluated project completion @60%
+
+    24-10-2023
+# Restored Functionality for Saving new Service Form manually (+optimized frontend load by rendering cidn manually)
+
+    25-10-2023
+# Deployed Application to aws EBS. deployment unsuccesfull, cause Dependency issues.
+# observed Application carrying unwanted/unused packages. scheduled cleanup and migration
+
+    29-10-2023
+# uploaded CodeBase to Remote-Repository
+# Fixed DashButton request-targets!

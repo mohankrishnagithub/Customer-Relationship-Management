@@ -1,0 +1,5 @@
+{% for user in foundUsers %}
+<tr>
+  <td>{{user.CustomerName}}</td> <td>{{user.Phone}}</td> <td><a href="{% url 'to-customer' user.CIDN %}">+</a></td>
+</tr>
+{% endfor %}

@@ -1,0 +1,19 @@
+/*suggested color #EEEEEE */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {font-family: 'Poppins', sans-serif; background-color: #F5F7FF;}
+
+.outercontainer {display: flex; align-items: center; flex-direction: column;}
+
+.detailsContainer { border-radius: 5px; background-color: #EEEEEE;
+                   width: 80%; height: 300px; margin-top: 3px;  display: flex;
+                    justify-content: space-around; align-items: center;
+                 }
+
+.vertical_info_container {width: 80%; border-radius: 5px; height: 50px;
+                          background-color: #EEEEEE; margin-top: 15px;}
+
+
+.leftHalf {padding: 7px; width: 49.5%; height: 98%; border-radius: 5px; background-color: #fff;}
+.rightHalf {padding: 7px; width: 49.5%; height: 98%; border-radius: 5px; background-color: #fff;}

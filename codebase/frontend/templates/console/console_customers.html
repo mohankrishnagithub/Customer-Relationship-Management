@@ -1,0 +1,42 @@
+<div class="customers_db_container">
+  <div class="heading">
+    <strong>Customers Database</strong>
+
+                    <div hx-get="" hx-target=".right_container" hx-trigger="click" class="button_parent">
+                      <strong id="button_name">&nbsp; &nbsp; Add</strong>
+                      <div class="button_child">
+                        <strong>+</strong>
+                      </div>
+                    </div>
+  </div>
+  <div class="table_container">
+    <table class="customers_table">
+      <thead> <th>#</th> <th>C-ID</th> <th>Name</th> <th>Phone</th> <th>Total-Orders</th><th>Registered</th><th>Engagement-Level</th></thead>
+      <tbody>
+        {% for record in records %}
+        <tr hx-get="{% url 'vc' record.CustomerName  %}" hx-target=".right_container" hx-trigger="click">
+        <td>{{forloop.counter}}</td>
+        <td>#{{record.CIDN}} &nbsp;</td>
+        <td>{{record.CustomerName}}</td>
+        <td>{{record.Phone}}</td>
+        <td>{{record.Orders}}</td>
+        <td>{{record.Created}}</td>
+        <td>{{record.EngagementTier}}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="right_container">
+  <div class="downloads_section">
+    <ul>
+      <li> downloadPDF </li>
+      <li> TopOrders </li>
+      <li> OlderUsers </li>
+    </ul>
+
+
+  </div>
+</div>

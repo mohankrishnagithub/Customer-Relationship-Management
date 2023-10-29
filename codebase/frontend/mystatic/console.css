@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* navigation section */
+.horizontal_navbar { display: flex;
+                    left: 60px; right: 0; top: 0;
+                    height: 55px; background-color: #fff;}
+
+.brand_empty { position: absolute; height: 55px; width: 60px;
+               background-color: #374f65;}
+  .brand_empty img{width: 30px; height: 30px; margin: 15px; transition: 0.3s;}
+  .brand_empty:hover img {transform: scale(1.5);}
+
+.vertical_navbar {background-color: #253544; position: fixed; top: 0; bottom: 0;
+                  width: 60px;   }
+
+                  .nav_list {margin-top: 55px;}
+                    .navicon {width: 59px; height: 59px; margin-bottom: 3px; transition: 0.3s;}
+                    .navicon img {width: 25px; height: 25px; margin: 15px; transition: 0.2s;}
+                    .navicon:hover {background-color: #fff;}
+                    .navicon:hover img {transform: scale(1.4);}
+                    .navicon:focus {background-color: #374f65;}
+
+/* End of navigation section */
+
+
+/* Tiles section */
+.Tiles_container {display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;
+          margin-left: 60px; right: 0; padding:0 20px 0 20px;  /*position: absolute; */
+          min-height: 150px; row-gap: 5px; column-gap: 30px;}
+
+    .child { position: relative; flex-grow: 1;
+             min-width: 300px; height: 110px;} /*330px; */
+           /*------------------------------------------------- */
+             .info {position: absolute; left: 0; right: 60px; color: white; padding: 12px 15px;}
+             .info h2 {margin: 0;}
+             .small {font-size: 85%; margin-top: 7px;}
+              /* -------------------------------------------------------------------- */
+                  .icon {background-color: rgba(0,0,0,.1); width: 60px; height: 100%; position: absolute; right: 0; }
+                    .icon img {width: 60px;  }
+                         /*-------------------------------------------------------------------- */
+                         .child1 {background-color: #2ecc71;}
+                         .child2 {background-color: #23b7e5;}
+                         .child3 {background-color: #f39c12;}
+                         .child4 {background-color: #e74c3c;}
+/* End of tiles section */
+
+.replace_content {margin:5px 5px 1px 65px; width: auto; padding: 15px; display: flex;} /* background-color: rgba(0,0,0,.1); */
+.right_container {flex-grow: 1;  margin-left: 15px;}
+
+/* ------------------------------------------------- */
+.customers_db_container {background-color: #fff; width: 70%; position: relative;}
+.customers_db_container .heading {border-bottom: 1px solid #e9ecef; padding:20px;}
+  .customer_info_action {width: 70%; background-color: #fff; height: 200px; padding: 24px; position: sticky; top: 10px; transition: 2s;}
+
+.table_container {padding: 15px;}
+
+.customers_table {width: 100%; text-align: left; border-spacing: 2px; margin-bottom: 15px;
+                   border-collapse: collapse; cursor: grab;}
+  .customers_table td, th{padding: 0.7rem; border-bottom: 1px solid #e9ecef; border-collapse: collapse;}
+  .customers_table tr:hover {background-color: rgba(0,0,0,.1);}
+
+.downloads_section {width: 70%;  background-color: #fff; margin-top: 0; padding: 24px;}
+
+/* ----------------------------- */
+.button_parent {position: absolute; margin: auto; color: white; right: 20px; top: 15px; border-radius: 2px;
+         width: 100px; height: 35px; font-family: sans-serif;
+         background-color: #3aa856; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+         display: flex; align-items: center; justify-content: left; }
+
+.button_child {background-color: #34974d; position: absolute; transition: 0.3s;
+        width: 40px;
+        right: 0; top: 0; bottom: 0;
+        display: flex; align-items: center; justify-content: center;}
+
+.button_parent:hover .button_child {width: 100%;}
+.button_parent:hover #button_name {color: transparent;}

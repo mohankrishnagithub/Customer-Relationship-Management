@@ -1,0 +1,80 @@
+/* selected google fonts
+font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Tsukimi Rounded', sans-serif;
+font-family: 'Sarabun', sans-serif;
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat+Alternates:wght@100&family=Poppins:wght@200&family=Quicksand:wght@500&family=Tsukimi+Rounded:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+
+#homeicon {display: block; width: 30px;  padding: 10px;
+    border-radius: 5px;
+   color: white; text-decoration: none;
+   font-family: 'Comfortaa'; text-align: center;
+   }
+
+#homeicon img {display: inline-block; height: 30px; width: 30px;}
+
+
+body {background-color: #EBF2FC; font-family: sans-serif; }
+a {text-decoration: none; color: black;}
+
+table {min-width: 40%; text-align: center; border-spacing: 0 2px;}
+th {background-color: #7B8FA1; font-family: 'Poppins', sans-serif;}
+th:first-child {border-radius: 5px 0 0 0;}
+th:last-child {border-radius: 0 5px 0 0;}
+td {padding: 5px 0; font-family: 'Comfortaa', cursive;}
+#search-results tr:nth-of-type(even) td{background-color: #DDE6ED;}
+
+input {padding: 10px;}
+button {padding: 10px;}
+
+h3 {font-family: 'Tsukimi Rounded', sans-serif; }
+
+.svg_img {position: absolute; height: 60%;
+         right: 9%;
+         bottom: 5%;
+         width: 45%;}
+
+#error_input {background-color: #D21312; margin-top: 3px;
+              display: inline;
+              border-radius: 8px;
+              padding: 5px; font-size: 10px;
+              font-weight: bold; font-family: 'Montserrat Alternates', sans-serif; color:white;}
+
+#success_input {background-color: #204969; margin-top: 3px;
+                display: inline;
+                border-radius: 8px;
+                padding: 5px; font-size: 10px;
+                font-weight: bold; font-family: 'Montserrat Alternates', sans-serif; color:white;}
+
+
+/* --recent customers list css below*/
+.recent_list_container * {padding: 0; margin: 0;}
+
+.recent_list_container {position: fixed; width: 300px;
+                        top: 5%; right: 3%;
+                        border-bottom: 20px solid #1f271b;
+                        border-bottom-left-radius: 10px;
+                        border-bottom-right-radius: 10px;
+                        font-family: 'Comfortaa', cursive;}
+
+.recent_list_container h2 {background-color: #1f271b; color: #fff;
+                           padding: 10px; border-radius: 10px 10px 0 0;}
+
+.recent_list_container ul {list-style-type: none; padding: 0; background-color: #fff;}
+.recent_list_container li {padding: 10px; transition: 0.5s;}
+
+.recent_list_container span {display: inline-block; text-align: center;
+                             width: 20px; height: 20px;
+                             background-color: #3d33ff; color: white;
+                             border-radius: 50%;}
+
+.recent_list_container li:hover {background-color: #3d33ff;
+                                 transform: scale(1.1);
+                                 color: white;
+                                 }
+/* -------------------------------  */

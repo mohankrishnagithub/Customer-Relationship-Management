@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito:wght@300&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+/* font-family: 'Nunito', sans-serif; */
+
+body {font-family: 'Nunito', sans-serif; background-color: #DDE6ED;}
+.tableContainer table {width: 100%; border-spacing: 0 15px; }
+.tableContainer {width: 450px; margin: auto;}
+
+.form-inline {display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              justify-content: center;}
+
+.form-inline input {vertical-align: middle;
+                    margin: 5px 10px 5px 0;
+                    padding: 10px;
+                    background-color: #fff;
+                    border: 1px solid #ddd;}
+
+.form-inline button {padding: 10px 20px;
+                     background-color: dodgerblue;
+                     color: white;
+                     cursor: pointer;}
+
+.form-inline button:hover {background-color: royalblue;}
+
+/* Responsieveness */
+@media only screen and (max-width: 400px){body {background-color: white;}
+                                          .form-inline input[type="number"] {width: 110px;}
+                                          .tableContainer table {width: 100%; border-spacing: 0 15px}}
+                                          .tableContainer table td {width: auto;}
+                                          .tableContainer {width: 100%;}
+
+@media only screen and (min-width: 600px){body {background-color: skyblue;}
+                                          .form-line input[type="number"] {width: 500px;}
+                                          .tableContainer {margin: auto; width: 450px;}
+                                          .tableContainer table {width: 100%; border-spacing: 2px 15px} }

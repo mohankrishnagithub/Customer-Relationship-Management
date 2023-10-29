@@ -1,0 +1,96 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{data.Name__CustomerName}}</title>
+    <link rel="stylesheet" href="{% static 'detailjob.css' %}">
+    <script src="https://unpkg.com/htmx.org@1.9.4"></script>
+  </head>
+  <body>
+
+    <a href="/">
+      <img src="{% static 'images/arrowleft.svg' %}" alt="" style="width:24px; height:24px; margin-left: 10px;">
+    </a>
+
+    <div class="outercontainer">
+      <div class="detailsContainer">
+
+        <div class="leftHalf">
+          <div class="">
+            <h2>{{ data.Model }}</h2>
+          </div>
+          <div class="">
+            <strong>Created:</strong>
+            <span> {{ data.Created|timesince }} ago </span>
+          </div>
+          <div class="">
+            <strong>Updated:</strong>
+            <span>{{ data.Updated|timesince }} ago </span>
+          </div>
+          <div class="">
+          <strong>Problem:</strong>
+          <span>{{ data.Problem }}</span>
+          </div>
+          <div class="">
+            <strong>Description:</strong>
+            <span>{{ data.Description}}</span>
+          </div>
+          <div class="">
+            <strong>Contact:</strong>
+          <span>{{ data.Name.CustomerName }} <br> cell: {{ data.Name.Phone }}
+            {% if data.Phone2 %}
+            , cell: {{data.Phone2}}
+            {% else %}
+
+            {% endif %}
+            </span>
+          </div>
+
+
+
+        </div>
+
+        <div class="rightHalf">
+          <div class="">
+            <strong>Status: </strong>
+            <span>{{ data.Status}}</span>
+          </div>
+          <div class="">
+            <strong>Update-Required: </strong>
+            <span>{{data.RequireUpdate}}</span>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="vertical_info_container">
+
+      </div>
+    </div>
+
+<!--
+
+<br>
+{{ data.Type }}
+
+
+
+
+
+
+{{ older }} days {{ hours }} hrs
+
+<u>description</u>
+{{ data.Description}}
+
+<u>Remarks</u>
+
+<u>Invoice</u>
+ -->
+
+
+  </body>
+</html>

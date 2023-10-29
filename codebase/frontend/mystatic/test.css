@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@300&family=IBM+Plex+Sans&family=Open+Sans&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/*
+font-family: 'Bangers', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {font-family: 'Poppins', sans-serif;}
+
+.headercontainer {display: flex; }
+  .headitem1 {margin-right: auto; width: 59%;}
+  .headitem2 {margin-left: auto; width: 39%;}
+    .headitem2 *{text-align: right;}
+
+.secondheadercontainer {display: flex; flex-wrap: wrap;}
+  .secondheaditem1 {width: 50%;}
+  .secondheaditem2 {width: 50%; text-align: right;}
+  .secondheaditem3 {width: 50%;}
+  .secondheaditem4 {width: 50%; text-align: right;}
+    /*.secondheaditem2 *{ text-align: right;}*/
+
+
+.tablecontainer {border: 1px solid #dee2e6; border-radius: 5px; font-family: 'Poppins', sans-serif;}
+.tablecontainer table {width: 100%; margin: auto; border-collapse: collapse;}
+.tablecontainer thead {background-color: #F5F5F5; text-align: center;}
+.tablecontainer th, td {padding: 10px;}
+.tablecontainer {}
+.tablecontainer #lastRow {background-color: #F5F5F5; }

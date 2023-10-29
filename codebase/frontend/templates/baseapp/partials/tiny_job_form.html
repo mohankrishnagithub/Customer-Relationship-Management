@@ -1,0 +1,69 @@
+
+
+
+  <div class="service_form_container" hx-target="this" style="width: 370px; height: 400px;">
+      <form class="" action="index.html" method="post">
+  <!--     <div>
+            <label for="id_Name">Name:</label>
+
+            <select name="Name" required="" id="id_Name">
+              <option value="" selected="">---------</option>
+              <option value="1003245">Purush</option>
+            </select>
+      </div>
+  -->
+      <div>
+          <label for="id_Type">Device:</label>
+          <select name="Type" id="id_Type">
+            <option value="adapter">adapter</option>
+            <option value="mobile">mobile</option>
+            <option value="printer">printer</option>
+            <option value="tablet">tablet</option>
+            <option value="smps">smps</option>
+            <option value="ups">ups</option>
+            <option value="motherboard">motherboard</option>
+            <option value="monitor">monitor</option>
+            <option value="laptop">laptop</option>
+            <option value="desktop">desktop</option>
+            <option value="screen">screen</option>
+            <option value="audio">audio</option>
+            <option value="?" selected="">?</option>
+          </select>
+      </div>
+      <div>
+          <label for="id_Model">Model:</label>
+          <input type="text" name="Model" maxlength="15" required="" id="id_Model" wfd-id="id0" placeholder="company">
+      </div>
+      <div>
+          <label for="id_SN">SN:</label>
+          <input type="text" name="SN" maxlength="15" id="id_SN" wfd-id="id4" placeholder="serial-number">
+      </div>
+
+      <div>
+          <label for="id_Problem">Problem:</label>
+          <input type="text" name="Problem" value="" maxlength="30" id="id_Problem" wfd-id="id1" placeholder="reported-Issue">
+      </div>
+      <div>
+        <label for="id_Price">Price:</label>
+        <input type="number" name="Price" id="id_Price" wfd-id="id2" placeholder="estimated-price">
+      </div>
+      <div>
+          <label for="id_Phone2">Alt-cell:</label>
+          <input type="number" name="Phone2" value="" min="0" id="id_Phone2" wfd-id="id3" placeholder="alternate-cell">
+      </div>
+      <div>
+        <label for="id_Payment">Payment:</label>
+        <select name="Payment" id="id_Payment">
+          <option value="Pending">Pending</option>
+          <option value="Paid">Paid</option>
+          <option value="N/A">N/A</option>
+        </select>
+      </div>
+      <div>
+        <label for="id_Description">Description:</label>
+        <textarea name="Description" cols="40" rows="10" id="id_Description" placeholder="Remarks"></textarea>
+      </div>
+
+       <button type="button" name="button" hx-post="{% url 'ServiceFormHandler' cidn %}" hx-trigger="click" hx-swap="outerHTML">ADD+</button>
+      </form>
+    </div>

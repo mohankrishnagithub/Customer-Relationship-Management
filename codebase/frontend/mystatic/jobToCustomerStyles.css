@@ -1,0 +1,21 @@
+/* selected google fonts
+font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Tsukimi Rounded', sans-serif;
+font-family: 'Montserrat', sans-serif;
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat+Alternates:wght@100&family=Poppins:wght@200&family=Quicksand:wght@500&family=Tsukimi+Rounded:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {background-color: #EBF2FC;}
+a {text-decoration: none;}
+
+h1 {font-family: 'Comfortaa', cursive;}
+p {font-family: 'Quicksand', sans-serif;}
+#grand-container {display:flex; flex-wrap: wrap; justify-content: space-around; height:auto;}
+
+.service_form_container {border: 2px solid; margin-bottom: 15px; margin-right: 5px; font-family: 'Open Sans', sans-serif;}

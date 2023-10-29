@@ -1,0 +1,26 @@
+body {font-family: arial;}
+
+.form-inline {display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              justify-content: center;}
+
+.form-inline input {vertical-align: middle;
+                    margin: 5px 10px 5px 0;
+                    padding: 10px;
+                    background-color: #fff;
+                    border: 1px solid #ddd;}
+
+.form-inline button {padding: 10px 20px;
+                     background-color: dodgerblue;
+                     color: white;
+                     cursor: pointer;}
+
+.form-inline button:hover {background-color: royalblue;}
+
+/* Responsieveness */
+@media only screen and (max-width: 400px){body {background-color: white;}
+                                          .form-inline input[type="number"] {width: 110px;}}
+
+@media only screen and (min-width: 600px){body {background-color: skyblue;}
+                                          .form-line input[type="number"] {width: 500px;}}

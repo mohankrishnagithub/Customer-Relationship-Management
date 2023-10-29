@@ -1,0 +1,22 @@
+<!-- This partial template is used fot rendering records only for index.html -->
+
+{% for row in rows %}
+<tr hx-get="{% url 'get_record' row.id %}" hx-trigger="click" hx-target="#free_space">
+    {% if forloop.last %}
+    <td hx-get="{% url 'requestpage' page %}" hx-trigger="revealed" hx-swap="beforeend" hx-target="#main_records" id="{{ row.RequireUpdate }}">{{row.id}} </td>  <td>&#128736;</td> <td>#{{ row.SIDN }}</td>
+    {% else %}
+    <td id="{{ row.RequireUpdate }}">{{row.id}} </td> <td>&#128736;</td> <td>#{{ row.SIDN }}</td>
+    {% endif %}
+
+     <td style="text-align: left;">{{row.Model}}</td> <td style="text-align: left;">{{row.Problem}}</td>
+    <td style="text-align: left;">{{row.Name.CustomerName}}</td>     <td>{{row.Name.Phone}}</td>
+    <td style="text-align: left;"> <div class="bollet {{ row.Payment }}"></div> {{row.Payment}}</td>               <td>&#8377;{{row.Price}}</td>
+    <td>{{row.Type}}</td>                  <td> <div class="badge {{ row.Status }}">{{row.Status}}</div> </td>
+
+
+
+
+</tr>
+
+
+{% endfor %}

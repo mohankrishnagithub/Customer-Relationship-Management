@@ -1,0 +1,120 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>console</title>
+    <link rel="stylesheet" href="{% static 'console.css' %}">
+    <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+  </head>
+  <body >
+
+  <header class="horizontal_navbar">
+
+  </header>
+
+  <!-- Vertical Navbar -->
+  <div class="vertical_navbar">
+      <div tabindex="9"  class="brand_empty">
+        <a href="/"> <img src="{% static 'images/home3.png' %}" alt=""> </a>
+      </div>
+
+      <div class="nav_list">
+        <div tabindex="1" hx-trigger="click" hx-target=".replace_content" hx-get="console/customers" class="navicon nav1">
+           <img src="{% static 'images/analysis1.png' %}" alt="">  </div>
+        <div tabindex="2" hx-trigger="click" hx-target=".replace_content" hx-get="console/customers"  class="navicon nav2">
+           <img src="{% static 'images/delivery-truck.png' %}" alt="inbound-outbound">  </div>
+        <div tabindex="3" hx-trigger="click" hx-target=".replace_content" hx-get="console/customers" class="navicon nav3">
+           <img src="{% static 'images/invoice.png' %}" alt="payment notes">  </div>
+        <div tabindex="4" hx-trigger="click" hx-target=".replace_content" hx-get="console/customers"  class="navicon nav4">
+           <img src="{% static 'images/bill.png' %}" alt="invoices old n create">  </div>
+        <div tabindex="5" hx-trigger="click" hx-target=".replace_content" hx-get="console/customers"  class="navicon nav5">
+           <img src="{% static 'images/product.png' %}" alt="warrenty">  </div>
+        <div tabindex="6" hx-trigger="click" hx-target=".replace_content" hx-get="console/customers" class="navicon nav6">
+           <img src="{% static 'images/plumber.png' %}" alt="my_employees">  </div>
+        <div tabindex="7" hx-trigger="click" hx-target=".replace_content" hx-get="console/customers" class="navicon nav7">
+           <img src="{% static 'images/customers.png' %}" alt="my_customers_database">  </div>
+        <div tabindex="8" hx-trigger="click" hx-target=".replace_content" hx-get="console/customers" class="navicon nav8">
+           <img src="{% static 'images/review.png' %}" alt="my_customers_database">  </div>
+
+      </div>
+  </div>
+  <!-- End of Vertical navbar -->
+
+  <!-- Tiles in a Row -->
+
+
+
+  <div class="Tiles_container">
+        <div class="child child1">
+                  <div class="info">
+                      <h2>201</h2>
+                      <div class="">
+                        NEW ORDERS
+                      </div>
+                      <div class="small">
+                        25% higher
+                      </div>
+                  </div>
+
+                  <div class="icon">
+                    <img src="{% static 'images/' %}" alt="">
+                  </div>
+        </div>
+        <!-- --------------------------- -->
+        <div class="child child2">
+                <div class="info">
+                    <h2>1250</h2>
+                    <div class="">
+                      STATUS CHECKS
+                    </div>
+                    <div class="small">
+                      17% higher
+                    </div>
+                </div>
+                <div class="icon">
+                </div>
+        </div>
+        <!-- --------------------------- -->
+        <div class="child child3">
+              <div class="info">
+                  <h2>&#8377;15</h2>
+                  <div class="">
+                    BILLED AMOUNT
+                  </div>
+                  <div class="small">
+                    17% higher
+                  </div>
+              </div>
+              <div class="icon">
+              </div>
+        </div>
+        <!----------------------------- -->
+        <div class="child child4">
+              <div class="info">
+                  <h2>108</h2>
+                  <div class="">
+                    TOTAL CUSTOMERS
+                  </div>
+                  <div class="small">
+                    17% higher
+                  </div>
+              </div>
+              <div class="icon">
+              </div>
+        </div>
+  </div>
+
+  <!-- End of tiles -->
+
+  <div class="replace_content">
+
+  </div>
+
+
+
+
+
+  </body>
+</html>
