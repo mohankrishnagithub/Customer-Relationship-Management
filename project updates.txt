@@ -81,3 +81,14 @@
 
     31-10-2023
 # ServiceInitiation page with newer styles and HTMX functionalities.
+
+
+    12-11-2023
+# Fixed minor form styles
+# Now Console equipped with CRUD operations on Customer-DB. (Updation, Deletion were added) 
+# Added background and modified for customer-interaction page.
+
+
+    13-11-2023
+# Form validation done for sendresponse app
+# Refactoring Response model for new SIDN column
