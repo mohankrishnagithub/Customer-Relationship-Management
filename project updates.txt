@@ -102,5 +102,6 @@
 # Fixed bug for Sendresponse app (Template Error)
 
 
-    17-11-2023
-# 
+    26-11-2023
+# Created New App for Managing DataBase named 'TRANSACT-DB'.
+# Created Default Backup Operations in TRANSACT-DB app.
