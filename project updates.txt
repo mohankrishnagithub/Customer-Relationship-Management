@@ -105,3 +105,31 @@
     26-11-2023
 # Created New App for Managing DataBase named 'TRANSACT-DB'.
 # Created Default Backup Operations in TRANSACT-DB app.
+
+
+    27-11-2023
+# More Css for DB page
+# Confirmation Dialouge Before Delete Operation
+
+
+    30-11-2023
+# QUick action Buttons created (functionality not activated!)
+# More CSS for DashBoard 
+
+
+    03-04-2023
+# User Registration completed at front-end and Test Success with few fields
+
+
+    21-12-2023
+# Serviceform EDIT and Resave functionality added
+
+
+    22-12-2023
+# DJ filter styles changed
+# Job saved card Deposit-amount info fixed
+# Fixed Widget/Tiles template effected with Table misplaced columns
+
+
+    24-12-2023
+# Refactored Service View (Improper handling of requests resolved!)
