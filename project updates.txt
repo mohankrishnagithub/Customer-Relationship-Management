@@ -133,3 +133,14 @@
 
     24-12-2023
 # Refactored Service View (Improper handling of requests resolved!)
+
+
+    26-12-2023
+# Major Updates to Login Stylesheets
+# Login-Form Validation created
+# Recreated Service+ functioning with auto-fill
+
+
+    27-12-2023
+# Fixed Authentication Bugs (conditional statements)
+# Fixed Form Deletion Issue with HTMX (target element error)
