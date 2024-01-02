@@ -143,4 +143,18 @@
 
     27-12-2023
 # Fixed Authentication Bugs (conditional statements)
-# Fixed Form Deletion Issue with HTMX (target element error)
+# Fixed Form Deletion Issue with HTMX on New/Old date (target element error)
+
+
+    28-12-2023
+# Fixed Order Increment (missing line of code)
+# Solved Mobile Print background graphics issue
+
+
+    28-12-2023
+# Deployed Version 1 onto Railway.app for USE
+
+
+    02-01-2024
+# CSS for input number checkbox
+# Code Refactoring 
