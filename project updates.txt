@@ -158,3 +158,26 @@
     02-01-2024
 # CSS for input number checkbox
 # Code Refactoring 
+
+
+    03-01-2024
+# Deployed Version 1.1 (style sheets updated)
+# Data Backup & Restoration Success
+# Debug set to False
+# Platforms Registrations set to False
+
+
+    06-01-2024
+# Added functionality to Update Price/Deposit/Description
+
+
+    07-01-2024
+# Deployed version 1.2
+# settings Updated SESSION_EXPIRE + SESSION_AGE
+# Styles Updated for receipt
+
+
+    12-01-2024
+# Strip() method added for Login Input
+# Team app Templates and Styles Created (Flexbox setup complete) 
+
