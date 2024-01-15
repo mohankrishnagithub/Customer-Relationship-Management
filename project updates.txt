@@ -181,3 +181,11 @@
 # Strip() method added for Login Input
 # Team app Templates and Styles Created (Flexbox setup complete) 
 
+
+    15-01-2024
+# Team app 60% Completed
+# Team app css styles design changed to fit Mobile View
+# Group Creation 'Technicians' created and Configured
+# new User (creation + add to Group) made available on TestPage
+# Check Group and Redirect Implemented Succesfully!
+# Page authorization Incomplete, yet to implement
