@@ -177,7 +177,7 @@
 # Styles Updated for receipt
 
 
-    12-01-2024
+    12-01-2024 (V1.3 underProgress)
 # Strip() method added for Login Input
 # Team app Templates and Styles Created (Flexbox setup complete) 
 
@@ -189,3 +189,17 @@
 # new User (creation + add to Group) made available on TestPage
 # Check Group and Redirect Implemented Succesfully!
 # Page authorization Incomplete, yet to implement
+
+
+    16-01-2024
+# Team app Base-query Configured to Ready-Failed-Pending priority
+# Team app templates updated
+
+
+    17-01-2024
+# Team app CSS 80% styling accomplished
+# Console app Manage-Employee-Accounts Tool in progress.
+# Team app Completed with all necesities
+# AutoComplete Turned OFF
+# Console app Manage-Employee-Accounts Tool Completed with auto-Group add.
+# Deployed v1.3 Onsite 
