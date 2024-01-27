@@ -11,8 +11,8 @@ from .views import (loginPage, logOut, registerPage,
 
 urlpatterns = [
     # Frequent-access
-    path('', homePage, name='home-page'),
-    path('rpg/<int:pg>', sendPages, name='requestpage'),
+    path(, homePage, name='home-page'),
+    path('', sendPages, name='requestpage'),
 
     # Authentication
     path('login-link', loginPage, name='login'),

@@ -5,6 +5,6 @@ from sendresponse.views import (loadPage, validateRespond, mark_update_required)
 
 urlpatterns = [
     path('', loadPage),
-    path('vd', validateRespond, name='validate-link'),
+    path('', validateRespond, name='validate-link'),
     path('nullnull/<int:case_id>/<int:phn>', mark_update_required, name='updateRequired'),
 ]

@@ -203,3 +203,23 @@
 # AutoComplete Turned OFF
 # Console app Manage-Employee-Accounts Tool Completed with auto-Group add.
 # Deployed v1.3 Onsite 
+
+
+    19-01-2024 (V1.4 underProgress)
+# Login Style sheets Fixed
+# CSRF-headers for HTMX enabled
+
+
+    22-01-2024
+# Styles updated for Console-emp
+# Input validation implemented for Consolse-emp
+# Prevent multiple Logins system implemented
+# Sticker now has time
+
+
+    27-01-2024
+# Changes made to Logical Schema (Supports multi Tenant 80% completed)
+# Team app Search-query now filters Customer Phone numbers
+# Group Model Detached (No more Groups for Identifying user)
+# CustomerUserModel Fields altered now contains (ORG, ACT) fields
+# AdminPanel Setting Updated for CustomerUserModelAdmin (password Hashing active + FIeldsets/add_Fieldsets imlemented)
