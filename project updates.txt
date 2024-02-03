@@ -222,4 +222,17 @@
 # Team app Search-query now filters Customer Phone numbers
 # Group Model Detached (No more Groups for Identifying user)
 # CustomerUserModel Fields altered now contains (ORG, ACT) fields
+# Profiles Model created, connects to each User.
 # AdminPanel Setting Updated for CustomerUserModelAdmin (password Hashing active + FIeldsets/add_Fieldsets imlemented)
+
+
+    02-02-2024
+# Paginator Storage Auto load on Startup
+# MoreOption button added
+# Account Details in Console
+# Admin-Panel configured (list display)
+
+
+    03-02-2024
+# TransactDB is more Secure now (accepts superuser only)
+# Overhaul for Backup (Pickup ready file, preventing response timeout for long iterations)
