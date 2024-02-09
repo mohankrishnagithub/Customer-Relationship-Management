@@ -205,7 +205,7 @@
 # Deployed v1.3 Onsite 
 
 
-    19-01-2024 (V1.4 underProgress)
+    19-01-2024 (V2 underProgress)
 # Login Style sheets Fixed
 # CSRF-headers for HTMX enabled
 
@@ -235,4 +235,17 @@
 
     03-02-2024
 # TransactDB is more Secure now (accepts superuser only)
-# Overhaul for Backup (Pickup ready file, preventing response timeout for long iterations)
+# Overhaul for Backup (Pickup ready file-pending, preventing response timeout for long backend-data-iterations)
+
+
+    04-02-2024
+# Overhaul for all Apps (Multi Tenant Ready, underTesting)
+# All queries to DB validates ORG
+# Dashboard results are cached (home-page reload drastically improved, 7 queries 2.04ms -> 3 queries in 0.87ms) 
+
+
+    05-02-2024
+# Transact-DB app deamon(scheduling, pickup) completed.
+# Transact-DB can Backup Authentication-db, Profile-db
+# Authorization runs on each app
+# V1.4 deployed Onsite
