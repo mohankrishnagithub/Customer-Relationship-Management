@@ -249,3 +249,11 @@
 # Transact-DB can Backup Authentication-db, Profile-db
 # Authorization runs on each app
 # V1.4 deployed Onsite
+
+
+    10-02-2024 (new version under progress)
+# Smooth scroll effect for landing Page
+# New access type (SHARED) created
+# EngagementTier change through dashboard Active
+# Query Updated for spinPaginatorStorage, spinStatsStorage with Distinct results
+# code lines written 1887 on backend Django
