@@ -248,12 +248,25 @@
 # Transact-DB app deamon(scheduling, pickup) completed.
 # Transact-DB can Backup Authentication-db, Profile-db
 # Authorization runs on each app
-# V1.4 deployed Onsite
+# V2.0.0 deployed Onsite
 
 
-    10-02-2024 (new version under progress)
+    10-02-2024 (v 2.1.0)
 # Smooth scroll effect for landing Page
 # New access type (SHARED) created
 # EngagementTier change through dashboard Active
 # Query Updated for spinPaginatorStorage, spinStatsStorage with Distinct results
 # code lines written 1887 on backend Django
+
+
+    11-02-2024
+# Reset Status removed and recreated in MoreOptions
+# Removed Text-select-prevention in CSS
+# Device-Type Options Updated in HTML
+# Restore-Backup now available for Authentication-DB, Profile-DB 
+# Deployed version 2.1.0
+# Receipt added with estimation info
+
+
+    00-02-2024 (new version in progress)
+#

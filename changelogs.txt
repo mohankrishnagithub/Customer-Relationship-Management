@@ -1,3 +1,14 @@
+Version 2.1.0 -2024-02-11
+ - Query Updated for spinPaginatorStorage, spinStatsStorage with Distinct results
+ - New access type (SHARED) created
+ - Engagement-Tier update functionality made available in action-panel
+ - Updated Status-Reset option in action-panel and removed previous styles
+ - Added Backup Functionality for Authentication and Profiles Database
+ - Removed text selection-off from Team app templates
+ - Updated device-type Options list in HTML
+ - Landing Page CSS updated for scroll-effect
+ - Receipt Updated
+
 Version 2.0.0 -2024-02-05
  - Upgraded to Multitenancy architecture
  - Data retrieval ensures data specific to the organization
