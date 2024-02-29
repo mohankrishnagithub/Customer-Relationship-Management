@@ -1,3 +1,8 @@
+Version 2.2.0 -2024-02-29
+ - Added Billing Feature
+ - Fixed eng-Status indicator
+ - Added Billing Database Backup
+
 Version 2.1.0 -2024-02-11
  - Query Updated for spinPaginatorStorage, spinStatsStorage with Distinct results
  - New access type (SHARED) created

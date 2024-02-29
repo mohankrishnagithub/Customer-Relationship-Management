@@ -268,5 +268,15 @@
 # Receipt added with estimation info
 
 
-    00-02-2024 (new version in progress)
-#
+    23-02-2024 (v 2.2.0)
+# Added Billing Feature
+# Fixed Status Indicator (realtime update) 
+
+
+    24-02-2024
+# Added Billing Database Backup
+# Resolved Billing
+
+
+    29-02-2024
+# Deployed V2.2.0 5:50 AM
