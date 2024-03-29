@@ -280,3 +280,31 @@
 
     29-02-2024
 # Deployed V2.2.0 5:50 AM
+
+
+    04-02-2024
+# created new app CONNECT
+
+
+    05-02-2024
+# Added Session based custom Authentication (50% complete)
+
+
+    06-02-2024
+# Session based custom Authentication (100% complete)
+# Added Styles for Connect-app
+
+
+    11-03-2024
+# Docker Container Revisited (Redis + Celery + Flower) container Loop-Back address issue resolved 
+
+
+    29-03-2024
+# Added new fields to connectApp Models
+# Added Quote options
+# Added GeoLocation capture at frontend with javascript
+# Added Realtime Distance measure with Geopy
+# PushNotification with only CSS
+# Celery Task Distribution Complete
+# Email backend Setup Complete with new Gmail account and Security keys
+
